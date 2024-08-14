@@ -12,8 +12,10 @@ dependencies:
   - pytorch-cuda=11.7
   - conda-forge::suitesparse
   - conda-forge::scikit-umfpack
+  - conda-forge::axel
   - pip:
       - pillow
-      - opencv-python-headless < 5.0.0.0
+      - opencv-contrib-python-headless < 5.0.0.0
+      - numpy < 2.0.0
       - scipy
       - cupy-cuda11x
