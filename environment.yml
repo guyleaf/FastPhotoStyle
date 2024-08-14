@@ -1,0 +1,19 @@
+name: photo_wct
+channels:
+  - pytorch
+  - nvidia
+  - anaconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch=1.13.1
+  - torchvision=0.14.1
+  - pytorch-cuda=11.7
+  - conda-forge::suitesparse
+  - conda-forge::scikit-umfpack
+  - pip:
+      - pillow
+      - opencv-python-headless < 5.0.0.0
+      - scipy
+      - cupy-cuda11x
